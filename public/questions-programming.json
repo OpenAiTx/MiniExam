@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "下列哪個不是程式設計的基本控制結構？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "循序結構（Sequence）" },
+      { "label": "B", "text": "選擇結構（Selection）" },
+      { "label": "C", "text": "重複結構（Iteration）" },
+      { "label": "D", "text": "遞迴結構（Recursion）" }
+    ],
+    "correctAnswer": ["D"],
+    "explanation": "程式設計的三大基本控制結構為循序、選擇、重複。遞迴是一種程式設計技巧，不屬於基本控制結構。"
+  },
+  {
+    "id": 2,
+    "question": "時間複雜度 O(n²) 通常出現在哪種演算法？（多選）",
+    "type": "multiple",
+    "options": [
+      { "label": "A", "text": "氣泡排序（Bubble Sort）" },
+      { "label": "B", "text": "快速排序（Quick Sort）平均情況" },
+      { "label": "C", "text": "插入排序（Insertion Sort）" },
+      { "label": "D", "text": "選擇排序（Selection Sort）" }
+    ],
+    "correctAnswer": ["A", "C", "D"],
+    "explanation": "氣泡排序、插入排序和選擇排序的時間複雜度都是 O(n²)。快速排序平均情況為 O(n log n)，最壞情況才是 O(n²)。"
+  },
+  {
+    "id": 3,
+    "question": "下列哪種資料結構遵循「先進先出」（FIFO）原則？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "堆疊（Stack）" },
+      { "label": "B", "text": "佇列（Queue）" },
+      { "label": "C", "text": "鏈結串列（Linked List）" },
+      { "label": "D", "text": "樹（Tree）" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "佇列（Queue）遵循 FIFO 原則，即先進入的元素先被取出。堆疊則是 LIFO（後進先出）。"
+  },
+  {
+    "id": 4,
+    "question": "在物件導向程式設計中，下列哪些是基本特性？（多選）",
+    "type": "multiple",
+    "options": [
+      { "label": "A", "text": "封裝（Encapsulation）" },
+      { "label": "B", "text": "繼承（Inheritance）" },
+      { "label": "C", "text": "多型（Polymorphism）" },
+      { "label": "D", "text": "編譯（Compilation）" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "物件導向程式設計的三大特性為封裝、繼承、多型。編譯是程式執行過程，不是物件導向的特性。"
+  },
+  {
+    "id": 5,
+    "question": "二元搜尋（Binary Search）演算法的前提條件是什麼？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "資料必須儲存在陣列中" },
+      { "label": "B", "text": "資料必須已經排序" },
+      { "label": "C", "text": "資料量必須是 2 的次方" },
+      { "label": "D", "text": "資料必須是整數" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "二元搜尋要求資料必須是已排序的，這樣才能透過中點比較快速縮小搜尋範圍，時間複雜度為 O(log n)。"
+  },
+  {
+    "id": 6,
+    "question": "下列哪種排序演算法是穩定排序？（多選）",
+    "type": "multiple",
+    "options": [
+      { "label": "A", "text": "合併排序（Merge Sort）" },
+      { "label": "B", "text": "快速排序（Quick Sort）" },
+      { "label": "C", "text": "插入排序（Insertion Sort）" },
+      { "label": "D", "text": "堆積排序（Heap Sort）" }
+    ],
+    "correctAnswer": ["A", "C"],
+    "explanation": "穩定排序指相同鍵值的元素排序後相對位置不變。合併排序和插入排序是穩定的，快速排序和堆積排序是不穩定的。"
+  },
+  {
+    "id": 7,
+    "question": "遞迴（Recursion）函數必須具備什麼條件？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "必須有終止條件（Base Case）" },
+      { "label": "B", "text": "必須使用全域變數" },
+      { "label": "C", "text": "必須回傳整數" },
+      { "label": "D", "text": "必須是私有函數" }
+    ],
+    "correctAnswer": ["A"],
+    "explanation": "遞迴函數必須有明確的終止條件（Base Case），否則會造成無窮遞迴導致堆疊溢位。"
+  },
+  {
+    "id": 8,
+    "question": "雜湊表（Hash Table）的主要優勢是什麼？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "節省記憶體空間" },
+      { "label": "B", "text": "資料自動排序" },
+      { "label": "C", "text": "快速的插入、刪除和查詢" },
+      { "label": "D", "text": "不會有資料碰撞" }
+    ],
+    "correctAnswer": ["C"],
+    "explanation": "雜湊表透過雜湊函數將鍵值對應到固定位置，可達到平均 O(1) 的插入、刪除和查詢時間複雜度。"
+  },
+  {
+    "id": 9,
+    "question": "DFS（深度優先搜尋）和 BFS（廣度優先搜尋）的主要差異是什麼？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "DFS 使用堆疊，BFS 使用佇列" },
+      { "label": "B", "text": "DFS 比 BFS 快" },
+      { "label": "C", "text": "DFS 只能用於樹，BFS 只能用於圖" },
+      { "label": "D", "text": "DFS 需要更多記憶體" }
+    ],
+    "correctAnswer": ["A"],
+    "explanation": "DFS 採用堆疊（或遞迴）實作，先深入探索；BFS 採用佇列實作，逐層探索。兩者適用場景和效率取決於具體問題。"
+  },
+  {
+    "id": 10,
+    "question": "Big O 符號用於描述演算法的什麼特性？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "程式碼行數" },
+      { "label": "B", "text": "記憶體使用量" },
+      { "label": "C", "text": "時間複雜度的漸進上界" },
+      { "label": "D", "text": "編譯時間" }
+    ],
+    "correctAnswer": ["C"],
+    "explanation": "Big O 符號用於描述演算法時間複雜度的漸進上界，表示輸入規模增長時，執行時間的成長趨勢。"
+  }
+]

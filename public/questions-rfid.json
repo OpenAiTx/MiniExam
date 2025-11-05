@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "RFID 的全名是什麼？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "Radio Frequency Identification" },
+      { "label": "B", "text": "Remote Field Identification" },
+      { "label": "C", "text": "Radio Field Interface Device" },
+      { "label": "D", "text": "Remote Frequency Interface" }
+    ],
+    "correctAnswer": ["A"],
+    "explanation": "RFID 全名為 Radio Frequency Identification，即無線射頻識別技術，是一種非接觸式的自動識別技術。"
+  },
+  {
+    "id": 2,
+    "question": "RFID 系統主要由哪些組件構成？（多選）",
+    "type": "multiple",
+    "options": [
+      { "label": "A", "text": "標籤（Tag）" },
+      { "label": "B", "text": "讀取器（Reader）" },
+      { "label": "C", "text": "天線（Antenna）" },
+      { "label": "D", "text": "顯示器（Display）" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "RFID 系統主要由標籤、讀取器和天線三個基本組件構成。標籤存儲數據，讀取器讀取數據，天線負責傳輸射頻信號。"
+  },
+  {
+    "id": 3,
+    "question": "依據供電方式，RFID 標籤可分為哪些類型？（多選）",
+    "type": "multiple",
+    "options": [
+      { "label": "A", "text": "被動式（Passive）" },
+      { "label": "B", "text": "主動式（Active）" },
+      { "label": "C", "text": "半主動式（Semi-Active）" },
+      { "label": "D", "text": "混合式（Hybrid）" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "RFID 標籤依供電方式分為：被動式（無內建電源，由讀取器供電）、主動式（有內建電池）、半主動式（電池僅供應晶片運作，通訊靠讀取器）。"
+  },
+  {
+    "id": 4,
+    "question": "下列哪種頻段的 RFID 具有較長的讀取距離？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "低頻（LF, 125-134 kHz）" },
+      { "label": "B", "text": "高頻（HF, 13.56 MHz）" },
+      { "label": "C", "text": "超高頻（UHF, 860-960 MHz）" },
+      { "label": "D", "text": "微波（2.45 GHz）" }
+    ],
+    "correctAnswer": ["C"],
+    "explanation": "超高頻（UHF）RFID 具有最長的讀取距離，可達數公尺至十數公尺，適合物流、倉儲等大範圍應用。低頻和高頻讀取距離較短。"
+  },
+  {
+    "id": 5,
+    "question": "EPC（Electronic Product Code）在 RFID 應用中的主要作用是什麼？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "加密通訊數據" },
+      { "label": "B", "text": "提供全球唯一的產品識別碼" },
+      { "label": "C", "text": "控制讀取器功率" },
+      { "label": "D", "text": "調節天線頻率" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "EPC（電子產品碼）是一套全球標準化的編碼系統，為每個產品提供唯一的識別碼，用於供應鏈管理和物品追蹤。"
+  },
+  {
+    "id": 6,
+    "question": "RFID 相較於條碼（Barcode）具有哪些優勢？（多選）",
+    "type": "multiple",
+    "options": [
+      { "label": "A", "text": "無須視線接觸即可讀取" },
+      { "label": "B", "text": "可同時讀取多個標籤" },
+      { "label": "C", "text": "成本更低" },
+      { "label": "D", "text": "可重複寫入數據" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "RFID 優於條碼之處包括：無須視線接觸、可批量讀取、數據可重寫、耐用性更高。但成本通常比條碼高。"
+  },
+  {
+    "id": 7,
+    "question": "下列哪個應用場景最適合使用 RFID 技術？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "超市商品價格標籤" },
+      { "label": "B", "text": "高速公路電子收費系統（ETC）" },
+      { "label": "C", "text": "印刷品出版日期標示" },
+      { "label": "D", "text": "手寫簽名認證" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "高速公路 ETC 系統需要快速、無接觸且遠距離的識別能力，非常適合使用 RFID 技術。其他選項較適合條碼或其他技術。"
+  },
+  {
+    "id": 8,
+    "question": "RFID 的防碰撞（Anti-collision）機制主要解決什麼問題？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "防止標籤之間物理碰撞" },
+      { "label": "B", "text": "同時讀取多個標籤時的訊號干擾" },
+      { "label": "C", "text": "防止讀取器過熱" },
+      { "label": "D", "text": "避免標籤數據損壞" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "防碰撞機制用於解決多個 RFID 標籤同時回應讀取器時產生的訊號干擾問題，確保能準確識別所有標籤。"
+  },
+  {
+    "id": 9,
+    "question": "NFC（Near Field Communication）與 RFID 的關係是？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "NFC 是 RFID 的完全替代技術" },
+      { "label": "B", "text": "NFC 是基於高頻 RFID 技術發展而來" },
+      { "label": "C", "text": "NFC 與 RFID 完全無關" },
+      { "label": "D", "text": "NFC 是低頻 RFID 的一種" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "NFC 是基於 13.56 MHz 高頻 RFID 技術標準發展而來的短距離無線通訊技術，常用於行動支付和資料交換。"
+  },
+  {
+    "id": 10,
+    "question": "RFID 系統中，讀取器與標籤之間的通訊採用什麼方式？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "紅外線" },
+      { "label": "B", "text": "藍牙" },
+      { "label": "C", "text": "電磁感應或射頻傳輸" },
+      { "label": "D", "text": "Wi-Fi" }
+    ],
+    "correctAnswer": ["C"],
+    "explanation": "RFID 系統利用電磁感應（低頻、高頻）或射頻傳輸（超高頻、微波）進行讀取器與標籤之間的無線通訊。"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "軟體開發生命週期（SDLC）通常包含哪些階段？（多選）",
+    "type": "multiple",
+    "options": [
+      { "label": "A", "text": "需求分析" },
+      { "label": "B", "text": "系統設計" },
+      { "label": "C", "text": "編碼實作" },
+      { "label": "D", "text": "市場行銷" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "SDLC 包含需求分析、系統設計、編碼實作、測試、部署和維護等階段。市場行銷不屬於 SDLC 的一部分。"
+  },
+  {
+    "id": 2,
+    "question": "下列哪種軟體開發方法論強調迭代和增量開發？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "瀑布模型（Waterfall）" },
+      { "label": "B", "text": "敏捷開發（Agile）" },
+      { "label": "C", "text": "V 模型" },
+      { "label": "D", "text": "螺旋模型（Spiral）" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "敏捷開發強調短週期的迭代和增量交付，快速回應需求變更。瀑布模型是順序式開發，較不靈活。"
+  },
+  {
+    "id": 3,
+    "question": "UML（統一塑模語言）中，用於描述物件間互動時序的是哪種圖？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "類別圖（Class Diagram）" },
+      { "label": "B", "text": "循序圖（Sequence Diagram）" },
+      { "label": "C", "text": "使用案例圖（Use Case Diagram）" },
+      { "label": "D", "text": "部署圖（Deployment Diagram）" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "循序圖用於展示物件間的互動順序和時序關係，清楚呈現訊息傳遞的過程。"
+  },
+  {
+    "id": 4,
+    "question": "下列哪些是軟體測試的類型？（多選）",
+    "type": "multiple",
+    "options": [
+      { "label": "A", "text": "單元測試（Unit Testing）" },
+      { "label": "B", "text": "整合測試（Integration Testing）" },
+      { "label": "C", "text": "系統測試（System Testing）" },
+      { "label": "D", "text": "需求測試（Requirement Testing）" }
+    ],
+    "correctAnswer": ["A", "B", "C"],
+    "explanation": "軟體測試主要包含單元測試、整合測試、系統測試和驗收測試。需求測試不是常見的測試分類。"
+  },
+  {
+    "id": 5,
+    "question": "資料庫正規化（Normalization）的主要目的是什麼？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "提高查詢速度" },
+      { "label": "B", "text": "減少資料冗餘和異常" },
+      { "label": "C", "text": "增加資料表數量" },
+      { "label": "D", "text": "簡化 SQL 語法" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "資料庫正規化的目的是減少資料冗餘、避免更新異常，確保資料一致性和完整性。過度正規化可能影響查詢效能。"
+  },
+  {
+    "id": 6,
+    "question": "MVC（Model-View-Controller）架構模式中，Controller 的主要職責是什麼？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "儲存業務邏輯和資料" },
+      { "label": "B", "text": "呈現使用者介面" },
+      { "label": "C", "text": "處理使用者輸入並協調 Model 和 View" },
+      { "label": "D", "text": "連接資料庫" }
+    ],
+    "correctAnswer": ["C"],
+    "explanation": "Controller 負責接收使用者輸入，處理業務邏輯，並協調 Model（資料）和 View（介面）之間的互動。"
+  },
+  {
+    "id": 7,
+    "question": "下列哪些是版本控制系統（VCS）的優點？（多選）",
+    "type": "multiple",
+    "options": [
+      { "label": "A", "text": "追蹤程式碼變更歷史" },
+      { "label": "B", "text": "支援多人協作開發" },
+      { "label": "C", "text": "自動修復程式錯誤" },
+      { "label": "D", "text": "可回復到先前版本" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "版本控制系統可追蹤變更、支援協作、管理分支和回復版本。但它不會自動修復程式錯誤。"
+  },
+  {
+    "id": 8,
+    "question": "敏捷開發中的「Sprint」是指什麼？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "每日站立會議" },
+      { "label": "B", "text": "固定時間長度的開發迭代週期" },
+      { "label": "C", "text": "產品待辦清單" },
+      { "label": "D", "text": "使用者故事" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "Sprint 是 Scrum 框架中的固定時間盒（通常 1-4 週），在此期間團隊完成特定的工作項目並交付可用增量。"
+  },
+  {
+    "id": 9,
+    "question": "下列哪種是黑箱測試（Black Box Testing）的技術？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "語句覆蓋（Statement Coverage）" },
+      { "label": "B", "text": "路徑測試（Path Testing）" },
+      { "label": "C", "text": "等價分割（Equivalence Partitioning）" },
+      { "label": "D", "text": "迴圈測試（Loop Testing）" }
+    ],
+    "correctAnswer": ["C"],
+    "explanation": "黑箱測試不考慮內部結構，只關注輸入輸出。等價分割是黑箱技術。語句覆蓋和路徑測試屬於白箱測試。"
+  },
+  {
+    "id": 10,
+    "question": "CI/CD 中的 CI 代表什麼？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "Code Integration" },
+      { "label": "B", "text": "Continuous Integration" },
+      { "label": "C", "text": "Central Implementation" },
+      { "label": "D", "text": "Component Interface" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "CI 代表持續整合（Continuous Integration），是頻繁地將程式碼變更合併到主分支並自動建置測試的實踐。"
+  }
+]

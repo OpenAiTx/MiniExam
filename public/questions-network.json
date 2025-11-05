@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "question": "電腦網路主要由哪些基本要素組成？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "硬體、軟體、資料" },
+      { "label": "B", "text": "網路主機/裝置、通訊鏈路、通訊協定" },
+      { "label": "C", "text": "伺服器、客戶端、路由器" },
+      { "label": "D", "text": "IP位址、端口、協定" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "電腦網路透過網路主機設備連接，依靠通訊鏈路傳輸資料，並由通訊協定規範傳輸規則，構成完整網路環境。"
+  },
+  {
+    "id": 2,
+    "question": "通訊協定在網路中的主要作用是什麼？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "提高網路速度" },
+      { "label": "B", "text": "規範資料傳遞格式和交換規則" },
+      { "label": "C", "text": "防止網路攻擊" },
+      { "label": "D", "text": "管理網路設備" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "協定確保不同設備能正確解析資料內容，定義傳輸流程與格式，是網路運作的基礎核心。"
+  },
+  {
+    "id": 3,
+    "question": "下列哪種網路架構中，每個節點同時扮演客戶端和伺服器角色？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "Client/Server模型" },
+      { "label": "B", "text": "P2P模型" },
+      { "label": "C", "text": "集中式模型" },
+      { "label": "D", "text": "分散式模型" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "P2P架構為分布式設計，節點兼具客戶端與伺服器功能，如eDonkey或Skype系統。"
+  },
+  {
+    "id": 4,
+    "question": "TCP/IP參考模型包含多少層？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "4層" },
+      { "label": "B", "text": "5層" },
+      { "label": "C", "text": "7層" },
+      { "label": "D", "text": "8層" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "TCP/IP模型採5層結構（實體層、資料鏈結層、網路層、傳輸層、應用層），簡化開發複雜度。"
+  },
+  {
+    "id": 5,
+    "question": "網路服務定址需要哪三個關鍵要素？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "主機名、協定、端口" },
+      { "label": "B", "text": "IP位址、傳輸類型、服務端口號" },
+      { "label": "C", "text": "MAC位址、IP位址、端口" },
+      { "label": "D", "text": "網域名稱、協定、服務類型" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "透過IP位址定位主機、傳輸類型（TCP/UDP）選擇服務方式、端口號指定應用程式接口，三者唯一確定服務端點。"
+  },
+  {
+    "id": 6,
+    "question": "下列哪個Socket函數屬於TCP專用？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "socket()" },
+      { "label": "B", "text": "bind()" },
+      { "label": "C", "text": "listen()" },
+      { "label": "D", "text": "sendto()" }
+    ],
+    "correctAnswer": ["C"],
+    "explanation": "listen()函數用於TCP伺服器端監聽連接請求，而sendto()通常用於UDP傳輸。"
+  },
+  {
+    "id": 7,
+    "question": "網路程式設計流程中，下列哪個階段是將需求轉換為正式規格？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "需求分析" },
+      { "label": "B", "text": "規格定義" },
+      { "label": "C", "text": "程式撰寫" },
+      { "label": "D", "text": "系統測試" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "規格定義階段將需求正規化，例如使用有限狀態機（FSM）或模式匹配來明確程序邏輯。"
+  },
+  {
+    "id": 8,
+    "question": "WWW服務通常使用哪種協定？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "FTP" },
+      { "label": "B", "text": "SMTP" },
+      { "label": "C", "text": "HTTP" },
+      { "label": "D", "text": "SIP" }
+    ],
+    "correctAnswer": ["C"],
+    "explanation": "HTTP協定是Web服務的基礎，基於Client/Server架構，如瀏覽器與網頁伺服器的互動。"
+  },
+  {
+    "id": 9,
+    "question": "關於Sockets API，下列敘述何者正確？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "僅適用於Linux系統" },
+      { "label": "B", "text": "不同平台的Sockets函數庫無法互通" },
+      { "label": "C", "text": "提供標準化編程接口，具跨平台性" },
+      { "label": "D", "text": "只用於TCP協定" }
+    ],
+    "correctAnswer": ["C"],
+    "explanation": "Sockets API抽象化底層網路連接，在Linux、Windows等平台均有實現，且遵循統一規範，確保程式互通性。"
+  },
+  {
+    "id": 10,
+    "question": "有限狀態機（FSM）在協定建模中主要用於描述什麼？",
+    "type": "single",
+    "options": [
+      { "label": "A", "text": "網路拓撲" },
+      { "label": "B", "text": "協定操作狀態和行為" },
+      { "label": "C", "text": "資料傳輸速率" },
+      { "label": "D", "text": "錯誤檢測機制" }
+    ],
+    "correctAnswer": ["B"],
+    "explanation": "FSM描述協定的操作狀態（如等待、連接、回應）和狀態之間的轉換，用以模擬客戶端與伺服器的互動流程。"
+  },
+  {
+    "id": 11,
+    "question": "關於 OSI 七層模型，下列哪些層負責端對端的通訊？（多選）",
+    "type": "multiple",
+    "options": [
+      { "label": "A", "text": "傳輸層" },
+      { "label": "B", "text": "網路層" },
+      { "label": "C", "text": "應用層" },
+      { "label": "D", "text": "資料鏈結層" }
+    ],
+    "correctAnswer": ["A", "C"],
+    "explanation": "傳輸層提供端對端的資料傳輸服務（如TCP、UDP），應用層則是使用者應用程式之間的通訊層，兩者都涉及端對端通訊。"
+  },
+  {
+    "id": 12,
+    "question": "TCP協定具有哪些特性？（多選）",
+    "type": "multiple",
+    "options": [
+      { "label": "A", "text": "面向連接" },
+      { "label": "B", "text": "可靠傳輸" },
+      { "label": "C", "text": "無連接" },
+      { "label": "D", "text": "流量控制" }
+    ],
+    "correctAnswer": ["A", "B", "D"],
+    "explanation": "TCP是面向連接的協定，提供可靠的資料傳輸服務，並具有流量控制和壅塞控制機制。UDP才是無連接協定。"
+  }
+]
